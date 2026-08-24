@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Create M3U Playlist from Selection
+Comment=Create an M3U playlist containing the selected files
+Exec=createm3u.sh %F
+Icon-Name=xsi-view-list-bullet-symbolic
+Selection=any
+Extensions=zip;7z;adf;adz;dsk;d64;2mg;chd;iso
+Quote=double
