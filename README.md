@@ -17,6 +17,7 @@ Restart Nemo with
 
 The script will add #SAVEDISK: to the end of every m3u which in supported platforms / frontends will create a savedisk automatically. In unsupported platforms this should be safely ignored.
 
-I've set the list of supported extensions to those I feel usually need it, but if I've missed any let me know or open a PR.  
+I've set the list of supported extensions to those I feel usually need it (disk-based systems and psx), but if I've missed any let me know or open a PR.  
 
-I made this for my own use, so make no guarantee that it won't cause your hard-drive to turn inside out and eat your cat. Though it is unlikely.
+> [!WARNING]
+> I made this for my own use, so make no guarantee that it won't cause your hard-drive to turn inside out and eat your cat. Though it is unlikely.
