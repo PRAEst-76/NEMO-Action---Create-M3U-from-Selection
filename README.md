@@ -12,12 +12,14 @@ Restart Nemo with
 
 `nemo --quit`
 
-> [!NOTE]
-> This script is not really of any use for music M3Us as it contains none of the required metadata syntax. There are many other solutions for this usage.
+You should now see the option in your right-click context menu when you select more than one supported file. M3U will be created in a the same directory using relative paths.
 
 The script will add #SAVEDISK: to the end of every m3u which in supported platforms / frontends will create a savedisk automatically. In unsupported platforms this should be safely ignored.
 
 I've set the list of supported extensions to those I feel usually need it (disk-based systems and psx), but if I've missed any let me know or open a PR.  
+
+> [!NOTE]
+> This script is not really of any use for music M3Us as it contains none of the required metadata syntax. There are many other solutions for this usage.
 
 > [!WARNING]
 > I made this for my own use, so make no guarantee that it won't cause your hard-drive to turn inside out and eat your cat. Though it is unlikely.
