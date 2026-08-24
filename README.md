@@ -12,7 +12,8 @@ Restart Nemo with
 
 `nemo --quit`
 
-It's not really of use for music m3us as it contains none of the meta syntax.
+[!NOTE]
+It's not really of use for music M3Us as it contains none of the required metadata syntax.
 
 The script will add #SAVEDISK: to the end of every m3u which in supported platforms / frontends will create a savedisk automatically. In unsupported platforms this should be safely ignored.
 
